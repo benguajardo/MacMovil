@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AI.Tech - Artificial Intelligence HTML Template</title>
+    <title>Agenda de Hora-Lista</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favi-empresa.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,6 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0">
                 <a href="index.html" class="navbar-brand">
-                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -85,71 +84,145 @@
     <div class="container-fluid pt-5 bg-primary hero-header">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
+                <!-- Título y descripción -->
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">Hora agendada técnico</h1>
-                </div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Equipos Agendados</h1>
+                    <a href="profile.html" class="btn btn-light btn-lg rounded-pill">Volver a mi perfil</a>
+                </div>                
+                <!-- Imagen destacada -->
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="" alt="" style="max-height: 300px;">
+                    <img class="img-fluid rounded shadow-lg" src="img/macbook-pro.png" alt="Equipos disponibles" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sección de video o imagen destacada -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10 mb-5 text-center">
+                <!-- Video destacado (puedes reemplazar la URL) -->
+                <div class="image-video-container">
+                    <iframe class="video-frame rounded-3 shadow-lg" width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video destacado" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero End -->
     <div class="container rounded bg-white mt-5 mb-5">
-        <div class="row">
-            <div class="col-md-5 border-right">
-                <div class="card mb-3" style="max-width: 800px;">
+        <div class="row justify-content-center">
+            <!-- Primer Producto -->
+            <div class="col-md-8 col-lg-6 mb-4">
+                <div class="card shadow-lg rounded-3 overflow-hidden">
                     <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="img/macbook-pro.png" class="img-thumbnail" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">2659</h5>
-                          <p class="card-text">MacBook Pro (14 pulgadas, 2021)</p>
-                          <p class="card-text"><small class="text-muted">Diagnóstico: Cambio de pantalla</small></p>
-                          <p class="card-text"><small class="text-muted">Estado: Recibido</small></p>
-                          <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <p class="card-text"><small class="text-muted">Fecha de recepción: 18/03/2025</small></p>
-                          <p class="card-text"><small class="text-muted">Hora de recepción: 15:34</small></p>
-                          <a class="btn btn-primary rounded-pill py-3 px-5" href="hora-agendada-detalle-tecnico.html">Ver detalle</a>
+                        <div class="col-md-5">
+                            <img src="img/macbook-pro.png" class="img-fluid rounded-start" alt="MacBook Pro">
                         </div>
-                      </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3 fw-bold text-dark">2659</h5>
+                                <p class="card-text text-muted fs-5">MacBook Pro (14 pulgadas, 2021)</p>
+                                <p class="card-text text-muted"><small>Diagnóstico: <strong>Cambio de pantalla</strong></small></p>
+                                <p class="card-text text-muted"><small>Estado: <span class="text-warning">Recibido</span></small></p>
+    
+                                <div class="progress rounded-3 mb-3" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+    
+                                <p class="card-text text-muted"><small>Fecha de recepción: <strong>18/03/2025</strong></small></p>
+                                <p class="card-text text-muted"><small>Hora de recepción: <strong>15:34</strong></small></p>
+    
+                                <a class="btn btn-primary rounded-pill py-3 px-5 mt-4" href="hora-agendada-detalle-tecnico.html">Ver Detalle</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+    
+            <!-- Segundo Producto -->
+            <div class="col-md-8 col-lg-6 mb-4">
+                <div class="card shadow-lg rounded-3 overflow-hidden">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img src="img/macbook-pro.png" class="img-fluid rounded-start" alt="MacBook Pro">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3 fw-bold text-dark">2759</h5>
+                                <p class="card-text text-muted fs-5">MacBook Pro (14 pulgadas, 2021)</p>
+                                <p class="card-text text-muted"><small>Diagnóstico: <strong>Upgrade Almacenamiento y Ram</strong></small></p>
+                                <p class="card-text text-muted"><small>Estado: <span class="text-warning">Recibido</span></small></p>
+    
+                                <div class="progress rounded-3 mb-3" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+    
+                                <p class="card-text text-muted"><small>Fecha de recepción: <strong>18/03/2025</strong></small></p>
+                                <p class="card-text text-muted"><small>Hora de recepción: <strong>15:34</strong></small></p>
+    
+                                <a class="btn btn-primary rounded-pill py-3 px-5 mt-4" href="hora-agendada-detalle-tecnico.html">Ver Detalle</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-5 border-right">
-                <div class="card mb-3" style="max-width: 800px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="img/macbook-pro.png" class="img-thumbnail" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">2759</h5>
-                          <p class="card-text">MacBook Pro (14 pulgadas, 2021)</p>
-                          <p class="card-text"><small class="text-muted">Diagnóstico: Upgrade Almacenamiento y Ram</small></p>
-                          <p class="card-text"><small class="text-muted">Estado: Recibido</small></p>
-                          <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <p class="card-text"><small class="text-muted">Fecha de recepción: 18/03/2025</small></p>
-                          <p class="card-text"><small class="text-muted">Hora de recepción: 15:34</small></p>
-                          <a class="btn btn-primary rounded-pill py-3 px-5" href="hora-agendada-detalle-tecnico.html">Ver detalle</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
     </div>
-    </div>
-    </div>
-<!-- Footer Start -->
+    
+    <style>
+        /* Estilos personalizados */
+        .card {
+            border: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+    
+        .card-title {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #333;
+        }
+    
+        .card-text {
+            font-size: 1rem;
+            color: #555;
+        }
+    
+        .card-text small {
+            font-size: 0.9rem;
+        }
+    
+        .progress {
+            background-color: #f1f1f1;
+            border-radius: 10px;
+        }
+    
+        .progress-bar {
+            border-radius: 10px;
+        }
+    
+        .btn-primary {
+            background-color: #007bff;
+            border-radius: 30px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+    
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    
+        /* Imágenes */
+        .img-fluid {
+            object-fit: cover;
+        }
+    
+        /* Diseño para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .card {
+                margin-top: 20px;
+            }
+        }
+    </style>    
 <div class="container-fluid bg-dark text-white-50 footer pt-5">
     <div class="container py-5">
         <div class="row g-5">

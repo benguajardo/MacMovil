@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Pagina de equipos</title>
+    <title>Equipos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favi-empresa.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,133 +33,123 @@
 </head>
 
 <body>
-    <!-- Spinner Start -->
+
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <!-- Spinner End -->
-
-
-    <!-- Navbar Start -->
-    <div class="container-fluid sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-white">Mac<span class="text-dark">.Molvi</span></h1>
-                </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
+<div class="container-fluid sticky-top">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="text-white font-weight-bold">Mac<span class="text-light">Molvi</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link px-3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link px-3">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link px-3">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="project.html" class="nav-link px-3">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle px-3" data-bs-toggle="dropdown" role="button" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="feature.html">Features</a></li>
+                            <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                            <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link px-3">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-outline-light p-0 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#searchModal">
+                    <i class="fa fa-search"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="project.html" class="nav-item nav-link">Projects</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu bg-light mt-2">
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="faq.html" class="dropdown-item">FAQs</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item active">404 Page</a>
-                            </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid bg-primary hero-header py-5" style="background-image: url('img/hero-bg.jpg'); background-size: cover; background-position: center;">
+    <div class="container text-center text-white py-5">
+        <h3 class="display-4 font-weight-bold mb-4 animated slideInRight">Equipos disponibles para reparar</h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a class="text-white" href="profile.html">Volver a mi Perfil</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="modal fade" id="searchModal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(20, 24, 62, 0.9);">
+            <div class="modal-header border-0">
+                <button type="button" class="btn btn-light btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center justify-content-center">
+                <div class="input-group w-75">
+                    <input type="text" class="form-control bg-transparent border-light text-white p-3" placeholder="Type search keyword">
+                    <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 mb-4">
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/macbook-pro.png" class="img-fluid rounded-start" alt="MacBook Pro">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body p-4">
+                            <h5 class="card-title text-primary">2659</h5>
+                            <p class="card-text">MacBook Pro (14 pulgadas, 2021)</p>
+                            <p class="card-text"><small class="text-muted">Diagnóstico: Cambio de pantalla</small></p>
+                            <p class="card-text"><small class="text-muted">Fecha límite de entrega: 18/03/2025</small></p>
+                            <a href="recepcion-pedido-detalle.html" class="btn btn-primary rounded-pill py-2 px-4">Ver detalle</a>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Navbar End -->
-
-
-    <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header">
-        <div class="container pt-5">
-            <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">Equipos disponibles para reparar</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">404 Error</li>
-                        </ol>
-                    </nav>
-                </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/img-4.png" alt="" style="max-height: 300px;">
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Hero End -->
 
-
-    <!-- Full Screen Search Start -->
-    <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-light p-3"
-                            placeholder="Type search keyword">
-                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+        <div class="col-lg-6 col-md-8 mb-4">
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/macbook-pro.png" class="img-fluid rounded-start" alt="MacBook Pro">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body p-4">
+                            <h5 class="card-title text-primary">2759</h5>
+                            <p class="card-text">MacBook Pro (14 pulgadas, 2021)</p>
+                            <p class="card-text"><small class="text-muted">Diagnóstico: Upgrade Almacenamiento y Ram</small></p>
+                            <p class="card-text"><small class="text-muted">Fecha límite de entrega: 18/03/2025</small></p>
+                            <a href="recepcion-pedido-detalle.html" class="btn btn-primary rounded-pill py-2 px-4">Ver detalle</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <div class="card mb-3" style="max-width: 800px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/macbook-pro.png" class="img-thumbnail" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">2659</h5>
-              <p class="card-text">MacBook Pro (14 pulgadas, 2021)</p>
-              <p class="card-text"><small class="text-muted">Diagnóstico: Cambio de pantalla</small></p>
-              <p class="card-text"><small class="text-muted">Fecha limite de entrega: 18/03/2025</small></p>
-              <a class="btn btn-primary rounded-pill py-3 px-5" href="recepcion-pedido-detalle.html">Ver detalle</a>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="card mb-3" style="max-width: 800px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/macbook-pro.png" class="img-thumbnail" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">2759</h5>
-              <p class="card-text">MacBook Pro (14 pulgadas, 2021)</p>
-              <p class="card-text"><small class="text-muted">Diagnóstico: Upgrade Almacenamiento y Ram</small></p>
-              <p class="card-text"><small class="text-muted">Fecha limite de entrega: 18/03/2025</small></p>
-              <a class="btn btn-primary rounded-pill py-3 px-5" href="recepcion-pedido-detalle.html">Ver detalle</a>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!-- 404 End -->
-        
-
-    <!-- Newsletter Start -->
+</div>
     <div class="container-fluid bg-primary newsletter py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
